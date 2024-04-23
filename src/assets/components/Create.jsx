@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 
 const Create = (props) => {
+  const [tasks, setTasks] = useState(todocontext)
+
     const tasks = props.tasks;
     const settasks = props.settasks;
 

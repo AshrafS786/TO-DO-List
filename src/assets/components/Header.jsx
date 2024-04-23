@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { todocontext } from '../Contexts/Context';
 
 const Header = (props) => {
+  const [tasks, setTasks] = useState(todocontext)
+
     const tasks = props.tasks;
+    const settasks = props.settasks;
   return (
     <div> 
 
