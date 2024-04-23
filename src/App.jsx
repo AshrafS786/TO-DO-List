@@ -8,7 +8,7 @@ import { todocontext } from "./Contexts/Context";
 const App = () => {
   //list rendering or showing object using useState:
 
-  const [tasks, settasks] = useState([todocontext]);
+  const [tasks, settasks] = useState(todocontext);
 
   const [count, setcount] = useState();
 
